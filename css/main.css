@@ -125,7 +125,7 @@
 }
 
 .home {
-    font-family: "Baloo 2", cursive
+    font-family: "Baloo 2", cursive;
 }
 
 .home .pic-area {
@@ -224,7 +224,7 @@
 }
 
 .home footer {
-    background-color: #707070
+    background-color: #000;
 }
 
 .services {
@@ -310,7 +310,7 @@
 }
 
 .services footer {
-    background-color: #707070
+    background-color: #000
 }
 
 .contact {
@@ -1893,18 +1893,22 @@ header .allergens h2 {
 }
 
 footer {
-    font-family: "Baloo 2", cursive
+    font-family: "Baloo 2", cursive;
+    border-top: 1px solid #000;
+    background-color: #000;
+    
 }
 
 footer .icons {
-    font-size: 2.5rem;
-    display: inline;
-    padding: 0;
-    margin: 0
+    font-size: 1.8rem;
+    text-align: center;
+    padding:0;
+    margin:0;
+   
 }
 
 footer .icons a {
-    color: #151515;
+    color: #fff;
     outline: none;
     text-decoration: none;
     margin: 0.5rem;
@@ -1913,10 +1917,4 @@ footer .icons a {
 
 footer .icons a:hover {
     color: #db8637
-}
-
-footer .copyright {
-    padding: 0;
-    margin-top: 2rem;
-    float: right
 }

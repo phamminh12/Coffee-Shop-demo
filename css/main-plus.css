@@ -30,3 +30,12 @@
     }
 }
 
+.wrper{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+.wrper:hover{
+    color: #b66f2d;
+}
+
